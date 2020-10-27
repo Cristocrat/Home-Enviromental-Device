@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'mainScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -26,9 +27,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(
-        title: 'Home',
-      ),
+      home: mainScreen(),
     );
   }
 }
@@ -109,11 +108,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
