@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "927640482205",
+    "firebase_url": "https://homeenviromentdevice-default-rtdb.firebaseio.com",
+    "project_id": "homeenviromentdevice",
+    "storage_bucket": "homeenviromentdevice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927640482205:android:d2c031a54b89f4b312bf74",
+        "android_client_info": {
+          "package_name": "com.homeenviromentdevice.senior"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927640482205-8ekbetb3f6m6ttnv0gcd40h7u6ec18q4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSmahPryny5GXf0645wTaPUp-_kBH1nLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927640482205-8ekbetb3f6m6ttnv0gcd40h7u6ec18q4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "927640482205-vfu8od5je33erk30tcrpoel1h16lh23o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.homeenviromentdevice.senior"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
