@@ -3,6 +3,7 @@ import 'main.dart';
 import 'package:flutter/material.dart';
 import 'aqi_tools.dart';
 import 'package:firebase_database/firebase_database.dart';
+import 'data.dart';
 
 // ignore: camel_case_types
 class mainScreen extends StatefulWidget {
@@ -16,6 +17,9 @@ class _mainScreenState extends State<mainScreen> {
   Widget build(BuildContext context) {
     AqiTools aqivalue;
     int aqi = 32;
+    String temp;
+
+    final databaseReference = FirebaseDatabase.instance.reference();
     widget.aqivalue.value = aqi;
     return Scaffold(
       appBar: AppBar(
@@ -44,7 +48,7 @@ class _mainScreenState extends State<mainScreen> {
                       Padding(
                         padding: EdgeInsets.fromLTRB(0, 13, 0, 13),
                         child: new Text(
-                          "Air Quality Index",
+                          "Temperature",
                           textAlign: TextAlign.center,
                         ),
                       ),
